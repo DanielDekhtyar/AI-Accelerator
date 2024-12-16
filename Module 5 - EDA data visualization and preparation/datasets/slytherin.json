@@ -1,0 +1,12 @@
+[
+    {"student_id": 400, "last_name": "Malfoy", "first_name": "Draco", "gender": "Male", "class_of": 1997},
+    {"student_id": 401, "last_name": "Crabbe", "first_name": "Vincent", "gender": "Male", "class_of": 1997},
+    {"student_id": 402, "last_name": "Goyle", "first_name": "Gregory", "gender": "Male", "class_of": 1997},
+    {"student_id": 403, "last_name": "Parkinson", "first_name": "Pansy", "gender": "Female", "class_of": 1997},
+    {"student_id": 404, "last_name": "Nott", "first_name": "Theodore", "gender": "Male", "class_of": 1997},
+    {"student_id": 405, "last_name": "Zabini", "first_name": "Blaise", "gender": "Male", "class_of": 1997},
+    {"student_id": 406, "last_name": "Bulstrode", "first_name": "Millicent", "gender": "Female", "class_of": 1997},
+    {"student_id": 407, "last_name": "Rosier", "first_name": "Evan", "gender": "Male", "class_of": 1996},
+    {"student_id": 408, "last_name": "Snape", "first_name": "Severus", "gender": "Male", "class_of": 1971},
+    {"student_id": 409, "last_name": "Selwyn", "first_name": "Selene", "gender": "Female", "class_of": 1997}
+]
