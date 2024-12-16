@@ -1,0 +1,12 @@
+[
+    {"student_id": 300, "last_name": "Potter", "first_name": "Harry", "gender": "Male", "class_of": 1997},
+    {"student_id": 301, "last_name": "Weasley", "first_name": "Ron", "gender": "Male", "class_of": 1997},
+    {"student_id": 302, "last_name": "Granger", "first_name": "Hermione", "gender": "Female", "class_of": 1997},
+    {"student_id": 303, "last_name": "Weasley", "first_name": "Fred", "gender": "Male", "class_of": 1996},
+    {"student_id": 304, "last_name": "Weasley", "first_name": "George", "gender": "Male", "class_of": 1996},
+    {"student_id": 305, "last_name": "Longbottom", "first_name": "Neville", "gender": "Male", "class_of": 1997},
+    {"student_id": 306, "last_name": "Lovegood", "first_name": "Luna", "gender": "Female", "class_of": 1998},
+    {"student_id": 307, "last_name": "Thomas", "first_name": "Dean", "gender": "Male", "class_of": 1997},
+    {"student_id": 308, "last_name": "Finnigan", "first_name": "Seamus", "gender": "Male", "class_of": 1997},
+    {"student_id": 309, "last_name": "Brown", "first_name": "Lavender", "gender": "Female", "class_of": 1997}
+]
