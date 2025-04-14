@@ -1,0 +1,61 @@
+// 2. הריצו פקודת find כדי לראות את המידע
+db.movies.find({});
+
+// 3. הציגו את הסרטים בהם שיחק רובין וויליאמס
+db.movies.find({ "actors.name": "Robin Williams" }, { title: 1, _id: 0 });
+
+// 4. הוסיפו לסרט Fight Club ז'אנר Crime
+db.movies.updateOne({ "title": "Fight Club" }, { $push: { "genres": "Crime" } });
+
+// 5. הציגו שם סרט וז’אנר עבור סרטים שאחד הז'אנרים שלהם הוא Crime
+db.movies.find({ "genres": "Crime" }, { title: 1, genres: 1, _id: 0 });
+
+// 6. הציגו את כל הפרטים עבור סרטים שיש להם בדיוק שני ז'אנרים: Crime ו- Drama
+db.movies.find({ "genres": ["Crime", "Drama"] }, { _id: 0 });
+
+// 7. הציגו שם סרט וז’אנר עבור סרטים שיש להם גם את הז'אנרים: Crime ו- Drama ואולי גם ז'אנרים אחרים.
+db.movies.find({ "genres": { $all: ["Crime", "Drama"] } }, { title: 1, genres: 1, _id: 0 });
+
+// 8. הציגו סרטים שברשימת הדירוג שלהם מופיע דירוג קטן מ8
+db.movies.find({ "ratings": { $lt: 8 } }, { title: 1, ratings: 1, _id: 0 });
+
+// 9. בחרו את אחד הסרטים שמצאתם בסעיף 7 והוסיפו לו דירוג 9.0, לאיזה מקום ברשימה נכנס הדירוג החדש?
+db.movies.updateOne(
+    { "title": "Fight Club" },
+    { $push: { "ratings": 9.0} }
+);
+
+// 10. שנו את הדירוג השלישי ברשימת הדירוגים ל9.2 ודאו שהשינוי בוצע
+db.movies.updateOne(
+    { "title": "Fight Club" },
+    { $set: { "ratings.2": 9.2 } }
+);
+
+// 11. הוסיפו לכל הסרטים שיצאו בשנת 1999 את השדה TheYearWithTheBestMovies:true
+db.movies.updateMany(
+    { "year": 1999 },
+    { $set: { "TheYearWithTheBestMovies": true } }
+);
+
+// 12. הסירו את השדה TheYearWithTheBestMovies מהסרט מטריקס
+db.movies.updateOne(
+    { "title": "The Matrix" },
+    { $unset: { "TheYearWithTheBestMovies": "" } }
+);
+
+// 13. הוסיפו לשלושה סרטים לבחירתכם שדה במאי ואת שמו
+db.movies.updateOne(
+    { "title": "Fight Club" },
+    { $set: { "director": "David Fincher" } }
+);
+db.movies.updateOne(
+    { "title": "Pulp Fiction" },
+    { $set: { "director": "Quentin Tarantino" } }
+);
+db.movies.updateOne(
+    { "title": "The Shawshank Redemption" },
+    { $set: { "director": "Frank Darabont" } }
+);
+
+// 14. הציגו מידע רק עבור סרטים שהשדה "במאי" מופיע בהם
+db.movies.find({ "director": { $exists: true } }, { title: 1, director: 1, _id: 0 });

@@ -1,0 +1,132 @@
+[
+    {
+        "title": "The Godfather",
+        "year": 1972,
+        "genres": ["Crime", "Drama"],
+        "actors": [
+            {"name": "Marlon Brando", "role": "Don Vito Corleone"},
+            {"name": "Al Pacino", "role": "Michael Corleone"}
+        ],
+        "ratings": [9.2, 9.5, 10, 8.9]
+    },
+    {
+        "title": "Pulp Fiction",
+        "year": 1994,
+        "genres": ["Crime", "Drama"],
+        "actors": [
+            {"name": "John Travolta", "role": "Vincent Vega"},
+            {"name": "Uma Thurman", "role": "Mia Wallace"}
+        ],
+        "ratings": [8.9, 9.0, 8.7, 9.3]
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "genres": ["Drama"],
+        "actors": [
+            {"name": "Tim Robbins", "role": "Andy Dufresne"},
+            {"name": "Morgan Freeman", "role": "Ellis Redding"}
+        ],
+        "ratings": [9.3, 9.4, 9.2, 9.0]
+    },
+    {
+        "title": "The Dark Knight",
+        "year": 2008,
+        "genres": ["Action", "Drama", "Crime"],
+        "actors": [
+            {"name": "Christian Bale", "role": "Bruce Wayne"},
+            {"name": "Heath Ledger", "role": "Joker"}
+        ],
+        "ratings": [9.0, 9.1, 9.2, 8.8]
+    },
+    {
+        "title": "Forrest Gump",
+        "year": 1994,
+        "genres": ["Drama", "Comedy"],
+        "actors": [
+            {"name": "Tom Hanks", "role": "Forrest Gump"},
+            {"name": "Robin Wright", "role": "Jenny Curran"}
+        ],
+        "ratings": [8.8, 8.7, 8.9, 8.6]
+    },
+    {
+        "title": "The Big Lebowski",
+        "year": 1998,
+        "genres": ["Comedy", "Crime"],
+        "actors": [
+            {"name": "Jeff Bridges", "role": "The Dude"},
+            {"name": "John Goodman", "role": "Walter Sobchak"}
+        ],
+        "ratings": [7.9, 8.1, 8.0, 8.2]
+    },
+    {
+        "title": "Fight Club",
+        "year": 1999,
+        "genres": ["Drama", "Action"],
+        "actors": [
+            {"name": "Edward Norton", "role": "Narrator"},
+            {"name": "Brad Pitt", "role": "Tyler Durden"}
+        ],
+        "ratings": [8.8, 9.0, 8.9, 8.7]
+    },
+    {
+        "title": "Inception",
+        "year": 2010,
+        "genres": ["Sci-Fi", "Thriller", "Action"],
+        "actors": [
+            {"name": "Leonardo DiCaprio", "role": "Dom Cobb"},
+            {"name": "Joseph Gordon-Levitt", "role": "Arthur"}
+        ],
+        "ratings": [8.7, 8.8, 8.6, 8.9]
+    },
+    {
+        "title": "Good Will Hunting",
+        "year": 1997,
+        "genres": ["Drama", "Romance"],
+        "actors": [
+            {"name": "Matt Damon", "role": "Will Hunting"},
+            {"name": "Robin Williams", "role": "Sean Maguire"}
+        ],
+        "ratings": [8.3, 8.4, 8.2, 8.5]
+    },
+    {
+        "title": "The Matrix",
+        "year": 1999,
+        "genres": ["Sci-Fi", "Action"],
+        "actors": [
+            {"name": "Keanu Reeves", "role": "Neo"},
+            {"name": "Laurence Fishburne", "role": "Morpheus"}
+        ],
+        "ratings": [8.7, 8.8, 8.9, 8.6]
+    },
+    {
+        "title": "Alex Love Sick",
+        "year": 1986,
+        "genres": ["Comedy", "Drama", "Burexas"],
+        "actors": [
+            {"name": "Yosef Shiloach", "role": "Faruk"},
+            {"name": "Eitan Sneh", "role": "Alex"}
+        ],
+        "ratings": [7.2, 7.5, 7.3, 7.4]
+    },
+    {
+        "title": "The Grand Budapest Hotel",
+        "year": 2014,
+        "genres": ["Comedy", "Drama"],
+        "actors": [
+            {"name": "Ralph Fiennes", "role": "M. Gustave"},
+            {"name": "Tony Revolori", "role": "Zero Moustafa"}
+        ],
+        "ratings": [8.1, 8.2, 8.0, 8.3]
+    },
+    {
+        "title": "Dead Poets Society",
+        "year": 1989,
+        "genres": ["Drama"],
+        "actors": [
+            {"name": "Robin Williams", "role": "John Keating"},
+            {"name": "Robert Sean Leonard", "role": "Neil Perry"}
+        ],
+        "ratings": [8.1, 8.0, 8.2, 8.3]
+    }
+]

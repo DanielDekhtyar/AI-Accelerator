@@ -1,0 +1,12 @@
+[
+    { "_id": 201, "name": "Chocolate Frogs", "category": "Candy", "price": 3.99 },
+    { "_id": 202, "name": "Bertie Bott's Every Flavour Beans", "category": "Candy", "price": 4.49 },
+    { "_id": 203, "name": "Butterbeer", "category": "Drinks", "price": 5.99 },
+    { "_id": 204, "name": "Pumpkin Pasties", "category": "Snacks", "price": 2.99 },
+    { "_id": 205, "name": "Cauldron Cakes", "category": "Desserts", "price": 4.99 },
+    { "_id": 206, "name": "Treacle Tart", "category": "Desserts", "price": 3.49 },
+    { "_id": 207, "name": "Fizzing Whizzbees", "category": "Candy", "price": 3.79 },
+    { "_id": 208, "name": "Firewhisky", "category": "Drinks", "price": 7.49 },
+    { "_id": 209, "name": "Gillywater", "category": "Drinks", "price": 4.99 },
+    { "_id": 210, "name": "Hagrid's Rock Cakes", "category": "Snacks", "price": 1.99 }
+]

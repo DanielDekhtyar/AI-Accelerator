@@ -1,0 +1,74 @@
+[
+    {
+        "_id": 1,
+        "name": "Harry Potter",
+        "house": "Gryffindor",
+        "year": 7,
+        "address": {
+            "street": "4 Privet Drive",
+            "city": "Little Whinging",
+            "country": "UK",
+            "postal_code": "12345"
+        }
+    },
+    {
+        "_id": 2,
+        "name": "Hermione Granger",
+        "house": "Gryffindor",
+        "year": 7,
+        "address": {
+            "street": "35 Crooked Lane",
+            "city": "London",
+            "country": "UK",
+            "postal_code": "54321"
+        }
+    },
+    {
+        "_id": 3,
+        "name": "Ron Weasley",
+        "house": "Gryffindor",
+        "year": 7,
+        "address": {
+            "street": "The Burrow",
+            "city": "Ottery St Catchpole",
+            "country": "UK",
+            "postal_code": "67890"
+        }
+    },
+    {
+        "_id": 4,
+        "name": "Draco Malfoy",
+        "house": "Slytherin",
+        "year": 7,
+        "address": {
+            "street": "Malfoy Manor",
+            "city": "Wiltshire",
+            "country": "UK",
+            "postal_code": "98765"
+        }
+    },
+    {
+        "_id": 5,
+        "name": "Luna Lovegood",
+        "house": "Ravenclaw",
+        "year": 6,
+        "address": {
+            "street": "Lovegood House",
+            "city": "Ottery St Catchpole",
+            "country": "UK",
+            "postal_code": "24680"
+        }
+    },
+    {
+        "_id": 6,
+        "name": "Neville Longbottom",
+        "house": "Gryffindor",
+        "year": 7,
+        "address": {
+            "street": "Longbottom Cottage",
+            "city": "Cotswolds",
+            "country": "UK",
+            "postal_code": "13579"
+        }
+    }
+]

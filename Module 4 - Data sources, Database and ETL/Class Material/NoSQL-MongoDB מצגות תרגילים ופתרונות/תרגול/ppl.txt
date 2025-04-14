@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Noam",
+        "age": 28,
+        "gender": "Male",
+        "profession": "Software Engineer",
+        "city": "Tel Aviv"
+    },
+    {
+        "name": "Yael",
+        "age": 34,
+        "gender": "Female",
+        "hobbies": [
+            "Hiking",
+            "Photography"
+        ],
+        "city": "Haifa"
+    },
+    {
+        "name": "Amit",
+        "age": 23,
+        "gender": "Non-binary",
+        "university": "Hebrew University",
+        "major": "Biology"
+    },
+    {
+        "name": "Asaf",
+        "age": 45,
+        "gender": "Male",
+        "profession": "Chef",
+        "restaurant": "Mahne Yehuda",
+        "city": "Jerusalem"
+    },
+    {
+        "name": "Rivka",
+        "age": 30,
+        "gender": "Female",
+        "occupation": "Teacher",
+        "school": "Gan Rimon Elementary"
+    },
+    {
+        "name": "Yossi",
+        "age": 50,
+        "gender": "Male",
+        "profession": "Taxi Driver",
+        "city": "Be'er Sheva"
+    },
+    {
+        "name": "Tamar",
+        "age": 27,
+        "gender": "Female",
+        "hobbies": [
+            "Yoga",
+            "Cooking"
+        ],
+        "city": "Ramat Gan"
+    },
+    {
+        "name": "Aviv",
+        "age": 19,
+        "gender": "Male",
+        "status": "IDF Soldier"
+    },
+    {
+        "name": "Shira",
+        "age": 30,
+        "gender": "Female",
+        "profession": "Graphic Designer",
+        "company": "Creative Studio Tel Aviv"
+    },
+    {
+        "name": "Art vandelay",
+        "age": 45,
+        "gender": "Male",
+        "profession": "Architect",
+        "projects": [
+            "Bridge of Peace",
+            "Eco Village"
+        ]
+    }
+]

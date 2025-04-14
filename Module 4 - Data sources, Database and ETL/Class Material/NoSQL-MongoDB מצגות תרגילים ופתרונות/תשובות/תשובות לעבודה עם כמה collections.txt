@@ -1,0 +1,67 @@
+// Question 3: Names of students and the cities they live in
+db.studs.find(
+    {},
+    {
+        _id: 0,
+        name: 1,
+        "address.city": 1
+    }
+);
+
+// Question 4: Names of students and cities for Gryffindor house
+db.studs.find(
+    { house: "Gryffindor" },
+    {
+        _id: 0,
+        name: 1,
+        "address.city": 1
+    }
+);
+
+// Question 5: Combine studs and ords using aggregate
+db.studs.aggregate([
+    {
+        $lookup: {
+            from: "ords",
+            localField: "name",
+            foreignField: "customer_name",
+            as: "orders"
+        }
+    }
+]);
+
+// Question 6: List products and their orders
+db.prods.aggregate([
+    {
+        $lookup: {
+            from: "ords",
+            localField: "_id",
+            foreignField: "products",
+            as: "orders"
+        }
+    }
+]);
+
+// Question 7: Show products and customer names from orders
+db.prods.aggregate([
+    {
+        $lookup: {
+            from: "ords",
+            localField: "_id",
+            foreignField: "products",
+            as: "orders"
+        }
+    },
+    {
+        $project: {
+            product_name: "$name",
+            orders: {
+                $map: {
+                    input: "$orders",
+                    as: "order",
+                    in: "$$order.customer_name"
+                }
+            }
+        }
+    }
+]);
