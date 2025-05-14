@@ -1,0 +1,6 @@
+,patient_id,name,age,gender,medication,dosage,test,result
+0,101,Moshe Cohen,45,Male,Atorvastatin,10mg,Cholesterol,High
+1,102,Sara Smith,38,Female,Metformin,500mg,Blood Sugar,Normal
+2,103,Roth Brown,50,Female,Lisinopril,20mg,Blood Pressure,Elevated
+3,104,Amir Abramson,60,Male,Jaundex,50mg,Liver Function,Normal
+4,105,Miriam Davis,30,Female,Amlodipine,5mg,Calcium,Normal
