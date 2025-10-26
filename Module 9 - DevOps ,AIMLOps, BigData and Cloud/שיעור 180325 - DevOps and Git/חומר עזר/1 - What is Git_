@@ -1,0 +1,64 @@
+################################################################
+######## https://git-school.github.io/visualizing-git/ ########
+################################################################
+
+
+Git is a distributed version control system (DVCS) that helps developers manage changes to their source code over time. It was created by Linus Torvalds, the creator of Linux, in 2005.
+
+Here's a breakdown of its key concepts:
+
+    Version Control:
+        Git allows you to keep track of changes made to files over time. This means you can view previous versions of your code, compare changes, and revert to earlier versions if needed.
+
+    Distributed:
+        Unlike centralized version control systems, Git is distributed. Each developer has a complete copy of the repository, including its full history. This means that even if a server goes down, developers can continue to work independently and later synchronize their changes.
+
+    Repositories:
+        Git stores all the data for a project in a repository. This includes the entire history of changes, branches, tags, and other metadata.
+
+    Commits:
+        A commit is a snapshot of the project at a specific point in time. It represents a set of changes made to the files in the repository. Each commit has a unique identifier (hash) and includes information such as the author, date, and a commit message.
+
+    Branches:
+        Branches are used to work on new features, bug fixes, or experiments without affecting the main codebase. They allow developers to isolate changes until they are ready to be merged into the main branch (often called master or main).
+
+    Merging:
+        Merging is the process of combining changes from one branch into another. This is typically done when a feature is complete and ready to be integrated into the main codebase.
+
+    Remote Repositories:
+        Git allows you to work with remote repositories hosted on servers like GitHub, GitLab, or Bitbucket. This enables collaboration with other developers and provides a centralized location for sharing code.
+
+    Pull Requests:
+        Pull requests are a feature of Git hosting platforms like GitHub and GitLab. They allow developers to propose changes to a repository and request that they be reviewed and merged into the main branch.
+
+Overall, Git is a powerful tool that helps developers collaborate, track changes, and manage complex projects efficiently.
+
+
+########################################################################################
+########################################################################################
+########################################################################################
+
+Git has three main states that files can reside in: working directory, staging area (index), and repository. These states represent the lifecycle of changes within a Git repository.
+
+    Working Directory:
+        This is where you make modifications to your files. When you modify a file in your project, it's considered to be in the working directory. These changes are not yet tracked by Git.
+
+    Staging Area (Index):
+        The staging area is like a holding area for changes that you want to include in your next commit. After making modifications to files in your working directory, you use the git add command to move these changes to the staging area. Files in the staging area are prepared to be included in the next commit.
+
+    Repository:
+        Once changes are committed, they become part of the repository. The repository stores a complete history of all commits made to the project, including the changes introduced in each commit. Commits in the repository are immutable snapshots of the project at a specific point in time.
+
+
+Here's a typical workflow using these states:
+
+    Modify Files:
+        Make changes to files in your working directory.
+    Stage Changes:
+        Use git add to stage the changes you want to include in the next commit. This moves the changes to the staging area.
+    Commit Changes:
+        Use git commit to create a new commit containing the changes in the staging area. This moves the changes from the staging area to the repository.
+    Repeat:
+        You continue this cycle of modifying files, staging changes, and committing them to the repository as needed.
+
+Understanding and managing these states is fundamental to effectively using Git for version control. It allows you to control which changes are included in each commit and gives you the flexibility to review and modify your changes before permanently adding them to the project history.

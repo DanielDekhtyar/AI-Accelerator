@@ -1,0 +1,399 @@
+    1  --version
+    2  git --version
+    3  git config --global user.name "Avi Tal"
+    4  git config --global user.name 
+    5  git config --global user.email "avi.tal@sel10.org"
+    6  git config --global user.email
+    7  git config --global init.default -h
+    8  git config --global init.default branch main
+    9  git config --global init.default branch
+   10  clear
+   11  history> git_com.txt
+   12  ls
+   13  pwd
+   14  cd "~/Desktop/GitStuff
+   15  ls
+   16  cd "~/Desktop/GitStuff"
+   17  cd /c/Users/USER/Desktop/GitStuff
+   18  clear
+   19  pwd
+   20  git init
+   21  ls -la
+   22  git status
+   23  git add git_com.txt
+   24  git status
+   25  git rm --cached git_com.txt
+   26  git status
+   27  ls
+   28  git add git_com.txt
+   29  ls
+   30  git rm --cached git_com.txt
+   31  git status
+   32  echo "hello kitty"
+   33  cls
+   34  clear
+   35  ls
+   36  pwd
+   37  touch whatever.txt
+   38  ls
+   39  touch .gitignore
+   40  echo Untitled.txt >> .gitignore
+   41  ls
+   42  git add Untitled.txt
+   43  git check-ignore -v file_name
+   44  git check-ignore -v Untitled.txt
+   45  echo Untitled.ipnb >> .gitignore
+   46  git check-ignore -v Untitled.txt
+   47  git check-ignore -v Untitled.ipnb
+   48  git check-ignor
+   49  git add Untitled.ipnb
+   50  echo Untitled.ipynb >> .gitignore
+   51  git add Untitled.ipynb
+   52  history> git_ignore.txt
+   53  sed -i '/Untitled.txt/d' .gitignore
+   54  git status
+   55  git commit
+   56  git add .
+   57  git status
+   58  git commit
+   59  pwd
+   60  cd "C:\Users\USER\Desktop\GitStuff"
+   61  pwd
+   62  git status
+   63  git commit -m "this is with -m"
+   64  git log -p
+   65  git log --oneline
+   66  git commit -m "commit #2"
+   67  touch new.txt
+   68  ls
+   69  git status
+   70  git add .
+   71  git status
+   72  git commit -m "commit #2"
+   73  git commit -m "commit #2git commit -m "commit #2"" -amend
+   74  git log --oneline
+   75  git commit --ament -m "commit #2git commit -m "commit #2""
+   76  git commit --amend -m "commit #2git commit -m "commit #2""
+   77  git log --oneline
+   78  git commit --amend -m "commit #2git log --onelinegit log --oneline!"
+   79  git log --oneline
+   80  git commit --amend -m "commit #2"
+   81  git log --oneline
+   82  git soft reset 9bedb33
+   83  git reset --soft 9bedb33
+   84  git status
+   85  git log
+   86  git 
+   87  git status
+   88  git log --oneline
+   89  git status
+   90  git log --oneline --graph --decorate --all
+   91  git reset --soft 1e6e8d1
+   92  git log --oneline --graph --decorate --all
+   93  git reflog
+   94  git reflog --soft 3c44372 
+   95  git reset --soft 3c44372 
+   96  git log --oneline --graph --decorate --all
+   97  git switch -c neW_branch_1
+   98  git switch main
+   99  git branch
+  100  git switch master
+  101  git branch
+  102  git switch new_branch_1
+  103  commit
+  104  git commit -m "changed what ever"
+  105  git switch master
+  106  git branch
+  107  עןא ךד-כןךקד
+  108  git ls-files
+  109  git branch new_branch_1
+  110  git switch new_branch_1
+  111  git ls-files
+  112  git commit -m "second change"
+  113  git ls-files
+  114  git add .
+  115  git commit -m "3rd chage with add to staging area, i hope it will work"
+  116  git branch master
+  117  git branch 
+  118  git switch master
+  119  git add -whatever.txt
+  120  git add whatever.txt
+  121  git commit -m "chant in master to create a conflict"
+  122  git merge new_branch_1
+  123  git status
+  124  [200~git checkout --theirs .
+  125  git add .
+  126  git commit -m "Resolved conflicts by keeping theirs"
+  127  git log
+  128  git log
+  129  בךקשר
+  130  clear
+  131  pwd
+  132  pwd
+  133  cd /c/Users/User/
+  134  cd /c/Users/User/Folder
+  135  cd "C:\Users\USER\Desktop\Folder"
+  136  pwd
+  137  git status
+  138  git init
+  139  git status
+  140  git add "Not important.txt"
+  141  git status
+  142  git commit -m "look at my commitgit status"
+  143  git log --oneline
+  144  git log 
+  145  git status
+  146  git add .
+  147  git status
+  148  git status
+  149  git add -A
+  150  git status
+  151  git add "Not important.txt"
+  152  git status
+  153  git commit 
+  154  git diff
+  155  git log
+  156  git amend -m "second commit"
+  157  git commit amend -m "second commit"
+  158  git commit --amend -m "second commit"
+  159  git log
+  160  git status
+  161  git add -A
+  162  git status
+  163  pwd
+  164  git status
+  165  git add "Not important.txt"
+  166  git status
+  167  pwd
+  168  cd /c/Users/User/Desktop/Folder
+  169  pwd
+  170  git status
+  171  git add .
+  172  git status
+  173  git init
+  174  git status
+  175  git add .
+  176  git status
+  177  בךקשר
+  178  clear
+  179  git status
+  180  git add -A
+  181  git status
+  182  git log
+  183  git ls-files
+  184  git status
+  185  git add .
+  186  cit commit -m "commit 3"
+  187  git commit -m "commit 3"
+  188  git log -oneline
+  189  git log --oneline
+  190  git diff
+  191  git reset --soft 21dc1c9 
+  192  git log --oneline
+  193  git reset --soft abb6ceb
+  194  git log --oneline
+  195  git log 
+  196  git commit -m "commit after soft reset"
+  197  git commit -m "commit after soft reset"
+  198   git add .
+  199  git commit -m "commit after soft reset"
+  200  git reset --hard 21dc1c9
+  201  git log --oneline
+  202  clear
+  203  #הערה
+  204  git switch -c new_branch 
+  205  git branch
+  206   git add .
+  207  git commit -m "change from new_branch"
+  208  git diff
+  209  git switch brnach main
+  210  git switch main
+  211  git switch master
+  212  git merge -m "merging from new branch" new_branch
+  213  git diff
+  214  git status
+  215  git log
+  216  #creating a conflict
+  217  git branch conflict_branch
+  218  git switch conflict branch
+  219  git switch conflict_branch
+  220  git branch
+  221   git add .
+  222  git status
+  223  git diff
+  224  git commit -m "from conflict branch"
+  225  git switch manster
+  226  git switch master
+  227   git add .
+  228  git commit -m "commit from master"
+  229  git merge -"merging from conflict" conflict_branch
+  230  switch conflict_branch
+  231  git switch conflict branch
+  232  git switch conflict_branch
+  233  git switch master
+  234  git branch -d conflict_branch
+  235  git switch -c conflict_2
+  236  git add .
+  237  git switch master
+  238  git status
+  239  git switch conflict_branch
+  240  git switch conflict_2
+  241  git status
+  242  git commit
+  243  git commit -m "commit
+  244  "
+  245  git log
+  246  git log --oneline
+  247  git branch
+  248  git status
+  249  git switch master
+  250  git add .
+  251  git merge "from conflict 2" conflict_2
+  252  git merge [200~ conflict_2
+  253  git merge conflict_2
+  254  git commit -m "commit from master"
+  255  git status
+  256  git merge "from conflict 2" conflict_2
+  257  git merge "from conflict 2" conflict_2
+  258  git merge conflict_2
+  259   git checkout --theirs .
+  260  git add .
+  261  git commit "conflict resolved"
+  262  git commit -m "conflict resolved"
+  263  clear
+  264  touch whatever.txt
+  265  echo "hello kitty"
+  266  echo "hello kitty" > whatever.txt
+  267  echo "bye bye kitty" > whatever.txt
+  268  echo "who killed kenney" >> whatever.txt
+  269  touch .gitignore
+  270  git check-ignore-v
+  271  echo "whatever.txt" >> .gitignore
+  272  git check-ignore-v whatever.txt
+  273  git check-ignore -v whatever.txt
+  274  git check-ignore -v 
+  275  ךד
+  276  ls
+  277  git check-ignore -v 'Not important.txt' 
+  278  git add whatever.txt
+  279  git add whatever.txt -f
+  280   git commit
+  281   git commit -m "commit"
+  282  --version
+  283  git --version
+  284  עןא 
+  285  echo "git config --global user.name avital"
+  286  git config --global user.name 
+  287  echo "git config --global user.email whatever@wherever.com"
+  288  git branch
+  289  clear
+  290  echo "git config --global user.email x.y@gmail.com"
+  291  git config --global init.default branch main
+  292  git branch
+  293  cd
+  294  cd "C:\Users\USER\Desktop\Folder"
+  295  git status
+  296  get init
+  297  git init
+  298  git status
+  299  git add doc2.txt
+  300  git status
+  301  git add .
+  302  git status
+  303  git commit -m "this is my first commit"
+  304  git log
+  305  git log --oneline
+  306  git status
+  307  git add .
+  308  git status
+  309  git commit -m "ne clicker just broccoli"
+  310  git log
+  311  git log --oneline
+  312  git commit --amend -m "NO clicker just broccli"
+  313  git log --oneline
+  314  clear
+  315  git status
+  316  git add .
+  317  git status
+  318  git commit
+  319  git log --oneline
+  320  git commit -m "important stuff"
+  321  pwd
+  322  git log --oneline
+  323  ls
+  324  git add doc2.txt
+  325  git rm --cached doc2.txt
+  326   git add doc2.txt
+  327  git status
+  328  git commit -m "green bazal"
+  329  git log --oneline
+  330  git reset 45e958f 
+  331  git log --oneline
+  332  git commit -m "after regular reset"
+  333  git add .
+  334  git commit -m "after regular reset"
+  335  git log --oneline
+  336  git reset --hard b68c68d
+  337  git log --oneline
+  338  clear
+  339  git branch
+  340  git branch dislike_team
+  341  git branch
+  342  git switch dislike_team
+  343  git branch
+  344  echo "git switch -c dislike_team"
+  345  git add .
+  346  git commit -m "1234"
+  347  git switch master
+  348  git switch dislike_team
+  349  git switch master
+  350  git switch dislike_team
+  351  git branch
+  352  git switch master
+  353  git merge dislike_team
+  354  git status
+  355  git log --oneline
+  356  git log 
+  357  git log --oneline
+  358  git branch -d dislike_team
+  359  git branch
+  360  clear
+  361  git switch -c conflict_team
+  362   git add .
+  363  git status
+  364  git commit -m "conflict commit"
+  365  git switch master
+  366   git add .
+  367   gi tstatus
+  368   gi status
+  369   git status
+  370  git commit -m "VERY IMPORTANT"
+  371  git merge  conflict_team
+  372  git merge  -m "this is my msg" conflict_team
+  373  clear
+  374  git switch conflict_team
+  375   git add .
+  376  git commit -m "kinder"
+  377  git wsitch master
+  378  git switch master
+  379   git add .
+  380   git commit -m "eggs"
+  381  git merge -m "egs or kinder" conflict_team
+  382  git add .
+  383   git commit -m "eggs resolved"
+  384  clear
+  385  git checkout --ours .
+  386  switch conflict_team
+  387  git switch conflict_team
+  388   git add .
+  389  git commit -m ":-)"
+  390  git switch master
+  391  git add .
+  392  git commit -m ":-("
+  393  git merge -m "sad or happy" conflict_team
+  394  git checkout --ours .
+  395  git add .
+  396  git commit -m "OURSgit add .git add .git add .!"
+  397  git log --oneline
+  398   history lesson_commands.txt
+  399   history> lesson_commands.txt
