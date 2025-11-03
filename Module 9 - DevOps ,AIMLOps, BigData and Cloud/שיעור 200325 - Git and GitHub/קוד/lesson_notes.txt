@@ -1,0 +1,77 @@
+    1  git config --global user.name avital
+    2  git config --global user.name
+    3  git config --global user.email
+    4  git config --global user.email avi.tal@sel10.com
+    5  git config --global user.email
+    6  git config --global user.name daniel
+    7  git config --global user.name
+    8  git config --global init.default branch main
+    9  cd C:\Users\AiFTW\Desktop
+   10  cd Desktop\MyProject
+   11  cd MyProject
+   12  pwd
+   13   dc c
+   14  cd c
+   15  cd c:\
+   16  cd
+   17  clear
+   18  cd c:/
+   19  pwd
+   20  cd c:/MyProject
+   21  pwd
+   22  git init
+   23  touch minions.txt
+   24  touch minions.txt
+   25  echo "banana"
+   26  echo "banana" > minions.txt
+   27  echo "gru is the leader" > minions.txt
+   28  echo "banana" >> minions.txt
+   29  touch smurfs.txt
+   30  echo "gargamel is evil" >>smurfs.txt
+   31  echo "Yodeli hi huuuu"
+   32  echo "Yodeli hi huuuu" >> smurfs.txt
+   33  clear
+   34  git status
+   35  git add .
+   36  git status
+   37  git commit -m "first commit"
+   38  git status
+   39  git branch
+   40  git add minions.txt
+   41  git add  *.txt
+   42  git add  .
+   43  clear
+   44  git status
+   45  git status
+   46  git add .
+   47  git commit
+   48  git commit -m "added :-)"
+   49  clear
+   50  touch .gitignore
+   51  ls
+   52  echo "smurfs.txt" >> .gitignore
+   53  git check-ignore -v smurfs.txt
+   54  git check-ignore -v minions.txt
+   55  git .add
+   56  git add .
+   57  git commit -m "git ignore"
+   58  git status
+   59  git check-ignore -v smurfs.txt
+   60  clear
+   61  git status
+   62  git rm --cached smurfs.txt
+   63  git status
+   64  git add .
+   65  git commit "removed smurfs"
+   66  git commit -m "removed smurfs"
+   67  git status
+   68   git rm --cached smurfs.txt
+   69  echo "smurfs.txt" > .gitignore
+   70  git status
+   71  git commit  -m "?"
+   72  git check-ignore -v "smurfs.txt"
+   73  git check-ignore -v "minions.txt"
+   74  git status
+   75  git status
+   76  sed-i '/smurfs.txt/d' .gitignore
+   77  history >lesson_notes.txt
